@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    @apply bg-[#FAFAFA] font-sans text-secondary;
+  }
+  .topbar-link {
+    @apply px-2 py-2 hover:text-primary active:text-primary;
+  }
+  .primary-input {
+    @apply rounded-lg border-0 p-3 font-sans text-sm drop-shadow-lg focus:ring-transparent focus:drop-shadow-xl;
+  }
+  .sidebar {
+    @apply flex h-screen w-1/4 flex-col bg-secondary p-5 text-white;
+  }
+  .primary-button {
+    @apply rounded-lg bg-primary py-2 text-xs font-semibold drop-shadow-xl hover:bg-opacity-70 active:bg-opacity-100;
+  }
+  .checkbox {
+    @apply mr-3 appearance-none border-0 bg-secondary text-primary ring-1 ring-primary focus:ring-0 focus:ring-offset-primary;
+  }
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+.food-list,.noscroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.food-list::-webkit-scrollbar,.noscroll::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
