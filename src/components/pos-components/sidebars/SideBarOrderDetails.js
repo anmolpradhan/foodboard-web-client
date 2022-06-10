@@ -1,3 +1,4 @@
+import React from 'react'
 import FoodListItem from '../FoodListItem'
 import { SideBarUserDetails } from './SideBarUserDetails'
 

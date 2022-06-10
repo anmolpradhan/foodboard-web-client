@@ -1,5 +1,5 @@
+import React from 'react'
 import AccessTimeIcon from '@mui/icons-material/AccessTime'
-import React from "react";
 
 export function SideBarUserDetails({}) {
   return <div className="grid h-fit w-full grid-cols-3 items-center text-xs text-white  text-opacity-70">
