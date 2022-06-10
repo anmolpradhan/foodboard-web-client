@@ -1,5 +1,4 @@
 import React from 'react'
-import AccessTimeIcon from '@mui/icons-material/AccessTime'
 import { SideBarUserDetails } from './SideBarUserDetails'
 import { Fragment, useState } from 'react'
 import { Combobox, Transition } from '@headlessui/react'

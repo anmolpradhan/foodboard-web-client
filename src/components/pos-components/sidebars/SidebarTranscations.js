@@ -70,7 +70,7 @@ function SidebarTransactions(props) {
           </span>
         </span>
         <span className="grid-row-2 grid gap-1">
-          {props.orderDetails.ordertype == 'dinein' ? (
+          {props.orderDetails.ordertype === 'dinein' ? (
             <>Table Number</>
           ) : (
             <>Takeaway</>
