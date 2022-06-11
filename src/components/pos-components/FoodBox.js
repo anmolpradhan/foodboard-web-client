@@ -2,7 +2,7 @@ import React from 'react'
 function FoodBox(props) {
   return (
     <div
-      className="delay-5 flex h-fit w-full cursor-pointer flex-col place-items-center gap-2 rounded-xl bg-white py-3 font-sans drop-shadow-lg transition ease-in-out hover:-translate-y-1 hover:drop-shadow-2xl active:translate-y-0 active:filter-none"
+      className="box-button"
       onClick={props.onPress}
     >
       <img
