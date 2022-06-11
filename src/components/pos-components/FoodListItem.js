@@ -1,3 +1,4 @@
+import React from 'react'
 const FoodListItem = (props) => {
   return (
     <div className="grid w-full grid-cols-4 items-center border-b-2 border-slate-700 pb-4 text-xs">

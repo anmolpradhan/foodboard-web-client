@@ -44,7 +44,7 @@ function PosContent(props) {
             <FoodBox
               foodDetail={foodDetail}
               onPress={() => addItems(foodDetail)}
-              key={foodDetail._id}
+              key={foodDetail.id}
             />
           )
         })}

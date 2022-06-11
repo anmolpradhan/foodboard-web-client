@@ -1,7 +1,8 @@
+import React from 'react'
 const OrderBox = (props) => {
   return (
     <div
-      className="delay-5 flex h-48 w-full cursor-pointer flex-col  rounded-xl bg-white px-2 py-1 font-sans text-xs drop-shadow-lg transition ease-in-out hover:-translate-y-1 hover:drop-shadow-2xl active:translate-y-0 active:filter-none"
+      className="box-button"
       onClick={props.onPress}
     >
       <span className="font-light text-sm">Token : #{props.orderDetail.token}</span>

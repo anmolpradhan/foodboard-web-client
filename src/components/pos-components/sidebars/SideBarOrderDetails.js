@@ -1,3 +1,4 @@
+import React from 'react'
 import FoodListItem from '../FoodListItem'
 import { SideBarUserDetails } from './SideBarUserDetails'
 
@@ -18,7 +19,7 @@ const SideBarOrderDetails = (props) => {
           </span>
         </span>
         <span className="grid-row-2 grid gap-1">
-          {props.orderDetails.ordertype == 'dinein' ? (
+          {props.orderDetails.ordertype === 'dinein' ? (
             <>Table Number</>
           ) : (
             <>Takeaway</>

@@ -1,12 +1,10 @@
-import _ from 'lodash'
-
+import React from 'react'
 import { useRecoilState } from 'recoil'
 import {
   orderDetailsState,
   itemDetailsState,
   sidebarSwitcherState,
 } from '../../lib/recoil-atoms'
-
 
 import PosHeader from '../../components/pos-components/PosHeader'
 import SidebarTransaction from '../../components/pos-components/sidebars/SidebarTranscations'

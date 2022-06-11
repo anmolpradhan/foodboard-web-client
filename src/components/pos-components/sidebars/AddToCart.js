@@ -1,3 +1,4 @@
+import React from 'react'
 import RemoveIcon from '@mui/icons-material/Remove'
 import AddIcon from '@mui/icons-material/Add'
 import { useRecoilState } from 'recoil'
@@ -40,6 +41,7 @@ const AddToCart = (props) => {
         <img
           src="/image 4.png"
           className="rounded-full"
+          alt={props.itemDetails.name}
         />
       </div>
       <div className="flex flex-col gap-4 text-base font-light">

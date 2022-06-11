@@ -1,4 +1,4 @@
-import { atom, selector } from 'recoil'
+import { atom } from 'recoil'
 
 export const orderDetailsState = atom({
   key: 'orderDetailsState', // unique ID (with respect to other atoms/selectors)
