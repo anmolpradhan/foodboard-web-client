@@ -17,10 +17,13 @@
     @apply flex h-screen w-1/4 flex-col bg-secondary p-5 text-white;
   }
   .primary-button {
-    @apply rounded-lg bg-primary py-2 text-xs font-semibold drop-shadow-xl hover:bg-opacity-70 active:bg-opacity-100;
+    @apply rounded-lg text-white bg-primary py-2 text-xs font-semibold drop-shadow-xl hover:bg-opacity-70 active:bg-opacity-100 ;
   }
   .checkbox {
     @apply mr-3 appearance-none border-0 bg-secondary text-primary ring-1 ring-primary focus:ring-0 focus:ring-offset-primary;
+  }
+  .box-button{
+    @apply flex h-fit w-full cursor-pointer flex-col place-items-center gap-2 rounded-xl bg-white py-3 font-sans drop-shadow-lg transition ease-in-out hover:-translate-y-1 hover:drop-shadow-2xl active:translate-y-0 active:filter-none
   }
 }
 

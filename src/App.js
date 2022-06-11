@@ -1,12 +1,9 @@
 import React from 'react';
+import FoodOptions from './components/pos-components/topbars/FoodOptions';
 
 function App() {
   return (
-      <div className="App">
-        <h1 className="text-3xl font-bold underline text-primary">
-          Hello world!
-        </h1>
-      </div>
+      <FoodOptions/>
   );
 }
 
