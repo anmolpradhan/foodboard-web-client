@@ -29,7 +29,7 @@ function FoodOptions() {
           </div>
           <div className="flex flex-col col-span-2 gap-1">
             <h2 className="text-lg font-light">Add Ons</h2>
-            <div className="grid grid-rows-3 grid-flow-col gap-2">
+            <div className="grid grid-rows-3 grid-flow-col gap-1">
               <button className="box-button py-2" value="Hello">
                 Dine In
                 <br />
@@ -54,7 +54,8 @@ function FoodOptions() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row mt-4 items-center w-full">
+      <hr className="mt-7"/>
+      <div className="flex flex-row mt-7 items-center w-full">
         <div className="basis-2/3">
           Chicken MoMo &nbsp;&nbsp;&nbsp;&nbsp; Rs.200,
           <span className="text-sm">
