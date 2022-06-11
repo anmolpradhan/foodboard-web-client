@@ -25,7 +25,6 @@ function FoodOptions() {
               <FoodBox foodDetail={foodDetail} onPress={() => select()} />
               <FoodBox foodDetail={foodDetail} onPress={() => select()} />
               <FoodBox foodDetail={foodDetail} onPress={() => select()} />
-              <FoodBox foodDetail={foodDetail} onPress={() => select()} />
             </div>
           </div>
           <div className="flex flex-col col-span-2 gap-1">
